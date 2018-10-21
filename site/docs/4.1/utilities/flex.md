@@ -74,7 +74,7 @@ Responsive variations also exist for `flex-direction`.
 
 Use `justify-content` utilities on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if `flex-direction: column`). Choose from `start` (browser default), `end`, `center`, `between`, or `around`.
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex justify-content-start bd-highlight mb-3">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -123,7 +123,7 @@ Responsive variations also exist for `justify-content`.
 
 Use `align-items` utilities on flexbox containers to change the alignment of flex items on the cross axis (the y-axis to start, x-axis if `flex-direction: column`). Choose from `start`, `end`, `center`, `baseline`, or `stretch` (browser default).
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-items-start bd-highlight mb-3" style="height: 100px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -172,7 +172,7 @@ Responsive variations also exist for `align-items`.
 
 Use `align-self` utilities on flexbox items to individually change their alignment on the cross axis (the y-axis to start, x-axis if `flex-direction: column`). Choose from the same options as `align-items`: `start`, `end`, `center`, `baseline`, or `stretch` (browser default).
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex bd-highlight mb-3" style="height: 100px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="align-self-start p-2 bd-highlight">Aligned flex item</div>
@@ -314,7 +314,7 @@ Vertically move one flex item to the top or bottom of a container by mixing `ali
 
 Change how flex items wrap in a flex container. Choose from no wrapping at all (the browser default) with `.flex-nowrap`, wrapping with `.flex-wrap`, or reverse wrapping with `.flex-wrap-reverse`.
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex flex-nowrap bd-highlight" style="width: 8rem;">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -330,7 +330,7 @@ Change how flex items wrap in a flex container. Choose from no wrapping at all (
 </div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex flex-wrap bd-highlight">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -356,7 +356,7 @@ Change how flex items wrap in a flex container. Choose from no wrapping at all (
 </div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex flex-wrap-reverse bd-highlight">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -414,7 +414,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 
 **Heads up!** This property has no effect on single rows of flex items.
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-start flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -440,7 +440,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 </div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-end flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -464,7 +464,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 <div class="d-flex align-content-end flex-wrap">...</div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-center flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -488,7 +488,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 <div class="d-flex align-content-center flex-wrap">...</div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-between flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -512,7 +512,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 <div class="d-flex align-content-between flex-wrap">...</div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-around flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>
@@ -536,7 +536,7 @@ Use `align-content` utilities on flexbox containers to align flex items *togethe
 <div class="d-flex align-content-around flex-wrap">...</div>
 {% endhighlight %}
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <div class="d-flex align-content-stretch flex-wrap bd-highlight mb-3" style="height: 200px">
     <div class="p-2 bd-highlight">Flex item</div>
     <div class="p-2 bd-highlight">Flex item</div>

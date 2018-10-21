@@ -94,7 +94,7 @@ All HTML headings, `<h1>` through `<h6>`, are available.
 
 Use the included utility classes to recreate the small secondary heading text from Bootstrap 3.
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <span class="h3">
     Fancy display heading
     <small class="text-muted">With faded secondary text</small>
@@ -112,7 +112,7 @@ Use the included utility classes to recreate the small secondary heading text fr
 
 Traditional heading elements are designed to work best in the meat of your page content. When you need a heading to stand out, consider using a **display heading**—a larger, slightly more opinionated heading style.
 
-<div class="bd-example bd-example-type">
+<div class="bd-example no_toc_section bd-example-type">
   <table class="table">
     <tbody>
       <tr>

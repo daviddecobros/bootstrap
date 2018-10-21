@@ -12,7 +12,7 @@ Bootstrap's grid system uses a series of containers, rows, and columns to layout
 
 **New to or unfamiliar with flexbox?** [Read this CSS Tricks flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#flexbox-background) for background, terminology, guidelines, and code snippets.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -124,7 +124,7 @@ Utilize breakpoint-specific column classes for easy column sizing without an exp
 
 For example, here are two grid layouts that apply to every device and viewport, from `xs` to `xl`. Add any number of unit-less classes for each breakpoint you need and every column will be the same width.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -153,7 +153,7 @@ For example, here are two grid layouts that apply to every device and viewport, 
 
 Equal-width columns can be broken into multiple lines, but there was a [Safari flexbox bug](https://github.com/philipwalton/flexbugs#flexbug-11) that prevented this from working without an explicit `flex-basis` or `border`. There are workarounds for older browser versions, but they shouldn't be necessary if you're up-to-date.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -172,7 +172,7 @@ Equal-width columns can be broken into multiple lines, but there was a [Safari f
 
 Auto-layout for flexbox grid columns also means you can set the width of one column and have the sibling columns automatically resize around it. You may use predefined grid classes (as shown below), grid mixins, or inline widths. Note that the other columns will resize no matter the width of the center column.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -206,7 +206,7 @@ Auto-layout for flexbox grid columns also means you can set the width of one col
 
 Use `col-{breakpoint}-auto` classes to size columns based on the natural width of their content.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row justify-content-md-center">
@@ -240,7 +240,7 @@ Use `col-{breakpoint}-auto` classes to size columns based on the natural width o
 
 Create equal-width columns that span multiple rows by inserting a `.w-100` where you want the columns to break to a new line. Make the breaks responsive by mixing the `.w-100` with some [responsive display utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/display/).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col">col</div>
@@ -261,7 +261,7 @@ Bootstrap's grid includes five tiers of predefined classes for building complex 
 
 For grids that are the same from the smallest of devices to the largest, use the `.col` and `.col-*` classes. Specify a numbered class when you need a particularly sized column; otherwise, feel free to stick to `.col`.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col">col</div>
@@ -281,7 +281,7 @@ For grids that are the same from the smallest of devices to the largest, use the
 
 Using a single set of `.col-sm-*` classes, you can create a basic grid system that starts out stacked and becomes horizontal at the small breakpoint (`sm`).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-sm-8">col-sm-8</div>
@@ -300,7 +300,7 @@ Using a single set of `.col-sm-*` classes, you can create a basic grid system th
 
 Don't want your columns to simply stack in some grid tiers? Use a combination of different classes for each tier as needed. See the example below for a better idea of how it all works.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
 <div class="row">
@@ -344,7 +344,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 
 ### Vertical alignment
 
-<div class="bd-example-row bd-example-row-flex-cols">
+<div class="bd-example no_toc_section-row bd-example-row-flex-cols">
 {% capture example %}
 <div class="container">
   <div class="row align-items-start">
@@ -385,7 +385,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 {% include example.html content=example %}
 </div>
 
-<div class="bd-example-row bd-example-row-flex-cols">
+<div class="bd-example no_toc_section-row bd-example-row-flex-cols">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -406,7 +406,7 @@ Use flexbox alignment utilities to vertically and horizontally align columns.
 
 ### Horizontal alignment
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row justify-content-start">
@@ -477,7 +477,7 @@ Here's the source code for creating these styles. Note that column overrides are
 
 In practice, here's how it looks. Note you can continue to use this with all other predefined grid classes (including column widths, responsive tiers, reorders, and more).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row no-gutters">
   <div class="col-12 col-sm-6 col-md-8">.col-12 .col-sm-6 .col-md-8</div>
@@ -491,7 +491,7 @@ In practice, here's how it looks. Note you can continue to use this with all oth
 
 If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-9">.col-9</div>
@@ -506,7 +506,7 @@ If more than 12 columns are placed within a single row, each group of extra colu
 
 Breaking columns to a new line in flexbox requires a small hack: add an element with `width: 100%` wherever you want to wrap your columns to a new line. Normally this is accomplished with multiple `.row`s, but not every implementation method can account for this.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
@@ -524,7 +524,7 @@ Breaking columns to a new line in flexbox requires a small hack: add an element 
 
 You may also apply this break at specific breakpoints with our [responsive display utilities]({{ site.baseurl }}/docs/{{ site.docs_version }}/utilities/display/).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
@@ -546,7 +546,7 @@ You may also apply this break at specific breakpoints with our [responsive displ
 
 Use `.order-` classes for controlling the **visual order** of your content. These classes are responsive, so you can set the `order` by breakpoint (e.g., `.order-1.order-md-2`). Includes support for `1` through `12` across all five grid tiers.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -567,7 +567,7 @@ Use `.order-` classes for controlling the **visual order** of your content. Thes
 
 There are also responsive `.order-first` and `.order-last` classes that change the `order` of an element by applying `order: -1` and `order: 13` (`order: $columns + 1`), respectively. These classes can also be intermixed with the numbered `.order-*` classes as needed.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="container">
   <div class="row">
@@ -594,7 +594,7 @@ You can offset grid columns in two ways: our responsive `.offset-` grid classes 
 
 Move columns to the right using `.offset-md-*` classes. These classes increase the left margin of a column by `*` columns. For example, `.offset-md-4` moves `.col-md-4` over four columns.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-md-4">.col-md-4</div>
@@ -613,7 +613,7 @@ Move columns to the right using `.offset-md-*` classes. These classes increase t
 
 In addition to column clearing at responsive breakpoints, you may need to reset offsets. See this in action in [the grid example]({{ site.baseurl }}/docs/{{ site.docs_version }}/examples/grid/).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
@@ -632,7 +632,7 @@ In addition to column clearing at responsive breakpoints, you may need to reset 
 
 With the move to flexbox in v4, you can use margin utilities like `.mr-auto` to force sibling columns away from one another.
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-md-4">.col-md-4</div>
@@ -654,7 +654,7 @@ With the move to flexbox in v4, you can use margin utilities like `.mr-auto` to 
 
 To nest your content with the default grid, add a new `.row` and set of `.col-sm-*` columns within an existing `.col-sm-*` column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).
 
-<div class="bd-example-row">
+<div class="bd-example no_toc_section-row">
 {% capture example %}
 <div class="row">
   <div class="col-sm-9">

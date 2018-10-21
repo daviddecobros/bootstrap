@@ -319,7 +319,7 @@ Dynamic tabbed interfaces, as described in the [<abbr title="Web Accessibility I
 
 Note that dynamic tabbed interfaces should <em>not</em> contain dropdown menus, as this causes both usability and accessibility issues. From a usability perspective, the fact that the currently displayed tab's trigger element is not immediately visible (as it's inside the closed dropdown menu) can cause confusion. From an accessibility point of view, there is currently no sensible way to map this sort of construct to a standard WAI ARIA pattern, meaning that it cannot be easily made understandable to users of assistive technologies.
 
-<div class="bd-example bd-example-tabs">
+<div class="bd-example no_toc_section bd-example-tabs">
   <ul class="nav nav-tabs" id="myTab" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
@@ -365,7 +365,7 @@ Note that dynamic tabbed interfaces should <em>not</em> contain dropdown menus, 
 
 To help fit your needs, this works with `<ul>`-based markup, as shown above, or with any arbitrary "roll your own" markup. Note that if you're using `<nav>`, you shouldn't add `role="tablist"` directly to it, as this would override the element's native role as a navigation landmark. Instead, switch to an alternative element (in the example below, a simple `<div>`) and wrap the `<nav>` around it.
 
-<div class="bd-example bd-example-tabs">
+<div class="bd-example no_toc_section bd-example-tabs">
   <nav>
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
@@ -403,7 +403,7 @@ To help fit your needs, this works with `<ul>`-based markup, as shown above, or 
 
 The tabs plugin also works with pills.
 
-<div class="bd-example bd-example-tabs">
+<div class="bd-example no_toc_section bd-example-tabs">
   <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
@@ -449,7 +449,7 @@ The tabs plugin also works with pills.
 
 And with vertical pills.
 
-<div class="bd-example bd-example-tabs">
+<div class="bd-example no_toc_section bd-example-tabs">
   <div class="row">
     <div class="col-3">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">

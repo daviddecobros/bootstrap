@@ -31,7 +31,7 @@ Keep reading for demos and usage guidelines.
 
 Below is a _static_ modal example (meaning its `position` and `display` have been overridden). Included are the modal header, modal body (required for `padding`), and modal footer (optional). We ask that you include modal headers with dismiss actions whenever possible, or provide another explicit dismiss action.
 
-<div class="bd-example bd-example-modal">
+<div class="bd-example no_toc_section bd-example-modal">
   <div class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -99,7 +99,7 @@ Toggle a working modal demo by clicking the button below. It will slide down and
   </div>
 </div>
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLive">
     Launch demo modal
   </button>
@@ -174,7 +174,7 @@ When modals become too long for the user's viewport or device, they scroll indep
   </div>
 </div>
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
     Launch demo modal
   </button>
@@ -232,7 +232,7 @@ Add `.modal-dialog-centered` to `.modal-dialog` to vertically center the modal.
   </div>
 </div>
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
     Launch demo modal
   </button>
@@ -294,7 +294,7 @@ Add `.modal-dialog-centered` to `.modal-dialog` to vertically center the modal.
   </div>
 </div>
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalPopovers">
     Launch demo modal
   </button>
@@ -357,7 +357,7 @@ Utilize the Bootstrap grid system within a modal by nesting `.container-fluid` w
   </div>
 </div>
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gridSystemModal">
   Launch demo modal
 </button>
@@ -514,7 +514,7 @@ Modals have three optional sizes, available via modifier classes to be placed on
 
 Our default modal without modifier class constitutes the "medium" size modal.
 
-<div class="bd-example">
+<div class="bd-example no_toc_section">
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl">Extra large modal</button>
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</button>
